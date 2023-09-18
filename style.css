@@ -1,0 +1,376 @@
+/* Add your custom CSS here */
+.hero {
+    background-image: url("poverty-cover.jpg"); /* Replace with your own image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.hero-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.scroll-intstruction {
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.mainTitle {
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5em;
+}
+.light-text {
+    color: white;
+    text-align: center;
+}
+.section {
+    padding: 50px;
+}
+.parallax {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./SVG/bg3.jpg"); /* Replace with your own image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./SVG/bg4.jpg"); /* Replace with your own image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backsound{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:rgb(0, 126, 229);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size: 1.5em;
+    text-align: center;
+}
+.fs{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    left:40px;
+    background-color:rgb(114, 114, 114);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size: 1.5em;
+    text-align: center;
+}
+.my-float{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slide1{
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slide2, .slide4, .slide6 {
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.slide2 > img, .slide4 > img, .slide6 > img {
+    position: absolute;
+    left: 0px;
+    bottom: 10%;
+}
+.slide2 > div > h4, .slide4 > div > h4 {
+    position: absolute;
+    width: 80%;
+    right: 0px;
+    top: 10%;
+    text-align: right;
+}
+.slide2 > div > h2 {
+    color: crimson;
+    font-family: 'Bebas Neue', sans-serif, 'bold';
+    font-size: 3em;
+    position: absolute;
+    width: 60%;
+    right: 0px;
+    bottom: 30%;
+    text-align: right;
+}
+.slide3, .slide5, .slide7, .slide8, .slide9 {
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.slide3 > img, .slide7 > img {
+    position: absolute;
+    right: 0px;
+    bottom: 10%;
+    height: 60%;
+}
+.slide3 > div > h4 {
+    position: absolute;
+    width: 80%;
+    left: 0px;
+    top: 20%;
+    text-align: left;
+}
+.slide5 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    text-align: right;
+}
+.slide5 > img {
+    top: 50%;
+    left: 50%;
+}
+.slide5 > div > h4, .slide6 > div > h4 {
+    color: rgb(0, 0, 0);
+}
+.slide5 > div > h2 {
+    color: crimson;
+    font-family: 'Bebas Neue', sans-serif, 'bold';
+    font-size: 7em;
+}
+.slide6 > div > h2 {
+    color: rgb(236, 148, 15);
+    font-family: 'Bebas Neue', sans-serif, 'bold';
+    font-size: 5rem;
+}
+.slide7 > div > h2 {
+    position: absolute;
+    width: 60%;
+    left: 0px;
+    top: 20%;
+    text-align: left;
+}
+.slide8 > img {
+    position: absolute;
+    height: 80%;
+    right: 0px;
+    bottom: 0%;
+}
+.slide8 > div {
+    position: absolute;
+    width: 80%;
+    left: 0px;
+    top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+.slide8 > div > h2 {
+    color: crimson;
+    font-family: 'Bebas Neue', sans-serif, 'bold';
+    font-size: 3em;
+    text-align: left;
+}
+.slide8 > div > p {
+    color: black;
+    text-align: left;
+}
+.slide9 > img {
+    position: absolute;
+    height: 70%;
+    right: 0px;
+    bottom: 5%;
+}
+.slide9 > div {
+    position: absolute;
+    width: 80%;
+    left: 0px;
+    top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+.slide9 > div > div {
+    height: 25%;
+    width: 60%;
+}
+.slide9 > div > div > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.slide9 > div > div > p {
+    width: 40%;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+#divider2 {
+    color: rgb(211, 0, 0);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .mainTitle {
+        color: rgb(255, 255, 255);
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 3.5em;
+    }
+    .subTitle {
+        font-size: 1em;
+    }
+    .fs {
+        display: none;
+    }
+    .backsound{
+        display: none;
+    }
+    .slide1{
+        height: 100%;
+        background-color:rgb(255, 255, 255);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slide2 {
+        height: 100%;
+        background-color:rgb(255, 255, 255);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slide2 > div > h2 {
+        color: crimson;
+        font-family: 'Bebas Neue', sans-serif, 'bold';
+        font-size: 4em;
+        position: absolute;
+        width: 60%;
+        right: 0px;
+        bottom: 0%;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+        text-align:center;
+    }
+    .slide3 {
+        height: 100%;
+        background-color:rgb(255, 255, 255);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .slide3 > img, .slide7 > img {
+        height: 50%;
+    }
+    .slide5 > div > h2 {
+        color: crimson;
+        font-family: 'Bebas Neue', sans-serif, 'bold';
+        font-size: 4rem;
+    }
+    .slide6 > div {
+        background-color: #FFF;
+        opacity: 0.6;
+    }
+    .slide6 > div > h2 {
+        color: rgb(236, 148, 15);
+        font-family: 'Bebas Neue', sans-serif, 'bold';
+        font-size: 2.8rem;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+    }
+    .slide7 {
+        height: 100%;
+        background-color:rgb(255, 255, 255);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slide7 > div > h2 {
+        width: 90%;
+        left: 0.5rem;
+    }
+    .slide8 {
+        height: 100%;
+        background-color:rgb(255, 255, 255);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slide8 > div {
+        position: absolute;
+        width: 80%;
+        left: 5%;
+        top: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .slide8 > div > h2 {
+        color: crimson;
+        font-family: 'Bebas Neue', sans-serif, 'bold';
+        font-size: 3em;
+        text-align: left;
+    }
+    .slide8 > div > p {
+        color: black;
+        text-align: left;
+        font-size: 0.75rem;
+    }
+}
